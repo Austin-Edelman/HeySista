@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+</style>
 /*!
  * Start Bootstrap - Grayscale v5.0.6 (https://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2019 Start Bootstrap
@@ -42,7 +44,7 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: darkolivegreen;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
@@ -93,7 +95,7 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("img/sunset-enhanced.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("img/justice.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -101,12 +103,12 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: grey;
   -webkit-background-clip: text;
 }
 
@@ -274,7 +276,7 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap';
   letter-spacing: 0.0625em;
 }
 
