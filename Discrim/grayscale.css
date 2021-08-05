@@ -45,22 +45,22 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: black;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
   }
   #mainNav .nav-link:active {
     color: white;
@@ -104,13 +104,13 @@
 }
 
 .masthead h1 {
-  font-family: 'https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap';
-
+  font-family: 'https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap';  
+  
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
 
 
@@ -134,7 +134,7 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
+    font-size: 5.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
