@@ -54,10 +54,10 @@
     -webkit-transition: none;
     transition: none;
     padding: 2rem 2rem;
-    color: red;
+    color: grey;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: red;
   }
   #mainNav .nav-link:active {
     color: white;
@@ -93,7 +93,7 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("img/Education1.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("img/Education2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -106,7 +106,7 @@
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: ;
   -webkit-background-clip: text;
 }
 
