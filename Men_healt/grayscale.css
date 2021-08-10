@@ -159,7 +159,7 @@
 
 .btn-primary:focus {
   background-color: #4f837f;
-  color: white;
+  color: hotpink;
 }
 
 .btn-primary:active {
@@ -304,6 +304,17 @@ footer {
 }
   
 p {
-  color: white;
+  color: hotpink;
  }
-
+ h4{
+  color: purple;
+ }
+li{
+  color: hotpink;
+}
+h4 class{
+  color: purple;
+}
+h3{
+  color: purple;
+}
