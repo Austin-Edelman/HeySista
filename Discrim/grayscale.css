@@ -130,7 +130,7 @@
 
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 110vh;
     padding: 0;
   }
   .masthead h1 {
@@ -315,4 +315,7 @@ p {
 h1{
 
 
+}
+.P-white {
+    color: rgba(255,255,255,.7)!important;
 }
