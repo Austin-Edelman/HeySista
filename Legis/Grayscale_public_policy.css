@@ -44,7 +44,7 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: darkolivegreen;
+    background-color: black;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
@@ -309,3 +309,8 @@ p {
   color: white;
  }
 
+ul.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
