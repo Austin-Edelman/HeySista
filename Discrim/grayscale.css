@@ -7,6 +7,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+#topPart {
+  vertical-align: bottom;
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -42,7 +46,7 @@
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 0;
+    padding-top: 80;
     padding-bottom: 0;
     border-bottom: none;
     background-color: black;
@@ -130,12 +134,12 @@
 
 @media (min-width: 992px) {
   .masthead {
-    height: 110vh;
+    height: 100vh;
     padding: 0;
   }
   .masthead h1 {
-    font-size: 5.5rem;
-    line-height: 6.5rem;
+    font-size: 5.6rem;
+    line-height: 6.3rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
