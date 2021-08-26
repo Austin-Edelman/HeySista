@@ -5,8 +5,10 @@
  */
 
 #mainNav {
-  min-height: 56px;
+  min-height: 80px;
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
 #mainNav .navbar-toggler {
@@ -23,7 +25,7 @@
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  padding: .9rem 1;
+  padding: 0rem 1;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -39,21 +41,23 @@
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 0;
+    padding-top: 80;
     padding-bottom: 0;
     border-bottom: none;
     background-color: black;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
   }
   #mainNav .navbar-brand {
     padding: .5rem .5;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
-    padding: 2rem 2rem;
+    padding: 2rem 1.5rem;
     color: grey;
   }
   #mainNav .nav-link:hover {
@@ -91,9 +95,9 @@
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 20rem 20;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("img/Education2.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 10%, rgba(22, 22, 22, 0.7) 80%, #161616 100%), url("img/Education2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -128,7 +132,7 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
+    font-size: 7.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
