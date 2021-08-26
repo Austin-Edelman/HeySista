@@ -101,7 +101,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Monaco';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -317,9 +317,16 @@ p {
 
 }
 
+.abuse-pic { 
+  height: 100%;
+  width: 100% ;
+ }
+
 .about-section {
    img {<img src="img/desperate woman.jpg" class="img-fluid" alt="">
   float: ;
   border: 1px dotted black;
   margin: 0px 0px 15px 20px; 
 }
+
+
